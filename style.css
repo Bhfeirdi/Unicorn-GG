@@ -57,3 +57,23 @@ body {
 /* Navigation Bar */
 
 /* Footer */
+footer{
+    height: 100px;
+    background: linear-gradient(to right, #343633ff, #042325ff, #119da4ff, #f64740ff, #fbfbffff) !important;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #343633ff;
+}
