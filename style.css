@@ -1,7 +1,9 @@
+
+
 .navigation_wrap {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 35px;
 }
 
 .left_align {
@@ -10,6 +12,7 @@
 }
 
 .navigation_wrap > .left_align > div {
+    font-family: sans-serif;
     margin-right: 15px;
     font-size: 0.7;
     font-weight: bolder;
@@ -18,9 +21,9 @@
 }
 
 .navigation_button_wrap {
-    padding: 30px;
-    height: 30px;
-    border-bottom: 3px solid transparent;
+    padding: 20px;
+    height: 0px;
+    border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
 
@@ -32,4 +35,8 @@
 
 .navigation_button_wrap:hover { 
     border-bottom: 3px solid #042325;
+}
+
+.navigation_button_wrap a:hover {
+    color: #042325
 }
