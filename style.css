@@ -1,3 +1,35 @@
 .navigation_wrap {
     display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.left_align {
+    display: flex;
+
+}
+
+.navigation_wrap > .left_align > div {
+    margin-right: 20px;
+    font-size: 0.7;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.navigation_button_wrap {
+    padding: 50px;
+    height: 30px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.navigation_button_wrap a {
+    color: #119DA4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation_button_wrap:hover { 
+    border-bottom: 3px solid #042325;
 }
