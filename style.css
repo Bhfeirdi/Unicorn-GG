@@ -1,8 +1,11 @@
+/* Master */
+
 body {
     margin: 20px;
     padding:20px;
 }
 
+/* Navigation Bar */
 .navigation_wrap {
     display: flex;
     justify-content: space-between;
