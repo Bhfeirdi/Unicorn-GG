@@ -98,4 +98,15 @@ footer{
     .column {
       width: 100%;
     }
-  }
+}
+
+@media screen and (max-width: 640px) {
+
+    #menu {
+        clear: right;
+        float: left;
+        margin-left: 0px; 
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+}
