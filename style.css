@@ -93,6 +93,10 @@ h3 {
     letter-spacing: 4px;
     color: #042325ff;
 }
+
+.list_clean {
+    list-style-type: none;
+}
 /* Navigation Bar */
 
 /* Navigation Bar */
