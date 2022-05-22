@@ -87,3 +87,9 @@ footer{
     padding: 1%;
     color: #343633ff;
 }
+/* Media Queeries */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
