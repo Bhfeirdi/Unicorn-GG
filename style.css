@@ -107,6 +107,13 @@ footer{
         float: left;
         margin-left: 0px; 
         margin-bottom: 10px;
-        line-height: 20px;
+        line-height: 30px;
+        offset-position: ;
+    }
+}
+
+@media (max-width:629px) {
+    img#logo {
+      display: none;
     }
 }
