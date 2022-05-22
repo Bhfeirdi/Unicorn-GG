@@ -88,7 +88,7 @@ footer{
     color: #343633ff;
 }
 /* Media Queeries */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
     .column {
       width: 100%;
     }
