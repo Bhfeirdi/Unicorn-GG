@@ -53,17 +53,24 @@ body {
     display: flex;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
 .column {
     float: left;
     width: 32%;
     padding: 5px;
-  }
+}
 
 .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
 /* Headers and text */
 
 h1 {
@@ -147,3 +154,4 @@ footer{
       display: none;
     }
 }
+
