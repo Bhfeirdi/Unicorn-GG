@@ -41,14 +41,14 @@ body {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 3px solid #042325ff;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 3px solid #f64740ff;
 }
 
-/**************************** Banner Images *****************************/
+/* Banner Images */
 .nav_wrap {
     display: flex;
 }
@@ -64,8 +64,35 @@ body {
     clear: both;
     display: table;
   }
-/* Navigation Bar */
+/* Headers and text */
 
+#h1 {
+    font-family:Verdana;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #f64740ff;
+}
+
+#h2 {
+    font-family:Verdana;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #f64740ff;
+}
+
+#h3 {
+    font-family:Verdana;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #119da4ff;
+}
+
+#h3 {
+    font-family:Verdana;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #042325ff;
+}
 /* Navigation Bar */
 
 /* Navigation Bar */
