@@ -14,48 +14,45 @@ body {
     text-align: left;
 }
 /* Navigation Bar */
-.navigation_wrap {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px;
+#logo{
+    float: right;
+    font-size: 0%;
+    margin-right: 50px;
 }
 
-.left_align {
-    display: flex;
-
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
 }
 
-.navigation_wrap > .left_align > div {
-    font-family: sans-serif;
-    margin-right: 15px;
-    font-size: 0.7;
-    font-weight: bolder;
-    text-transform: uppercase;
-
+#logo, #menu{
+    line-height: 250px;
 }
 
-.navigation_button_wrap {
-    padding: 20px;
-    height: 0px;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
 }
 
-.navigation_button_wrap a {
-    color: #119DA4;
+#menu a {
     text-decoration: none;
-    transition: color 0.2s;
+    color:#119da4ff;
 }
 
-.navigation_button_wrap:hover { 
-    border-bottom: 3px solid #042325;
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
 }
 
-.navigation_button_wrap a:hover {
-    color: #042325
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /**************************** Banner Images *****************************/
+.nav_wrap {
+    display: flex;
+}
+
 .column {
     float: left;
     width: 32%;
@@ -102,4 +99,3 @@ footer{
       width: 100%;
     }
   }
-  
