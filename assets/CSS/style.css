@@ -1,5 +1,7 @@
 /* Master */
 
+/*backround colour chosen as part of the colour scheme of the site, please see readme for screenshots*/
+
 body {
     margin: 20px;
     font-family: sans-serif;
@@ -35,6 +37,8 @@ body {
     margin-left: 50px;
 }
 
+/*More of the swatchbook colours used thoughout the nav bar*/
+
 #menu a {
     text-decoration: none;
     color:#119da4ff;
@@ -49,15 +53,22 @@ body {
 }
 
 /* Banner Images */
+
+/* Needed to create the flex here to avoid banner images losing position and appearing in the nav bar*/
+
 .nav_wrap {
     display: flex;
 }
+
+/* row and column borrowed form W3Schools examples for displaying images along side eachother in a row*/
 
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
+
+/* Had to decrease the overall size by 1% to fit page corectly */
 
 .column {
     float: left;
@@ -72,6 +83,8 @@ body {
 }
 
 /* Headers and text */
+
+/* initially had font and trasnsform data in the html doc before making the master styles here */
 
 h1 {
     font-family:Verdana;
@@ -101,20 +114,22 @@ h3 {
     color: #042325ff;
 }
 
+/* Created a list_clean style to remove bullets from the lists on the home page. Did not apply this to lists later on in the spec sheet */
+
 .list_clean {
     list-style-type: none;
 }
-/* Navigation Bar */
-
-/* Navigation Bar */
-
-/* Navigation Bar */
 
 /* Footer */
+
+/* All colours from the swatchbook used here to gradient across the footer*/
+
 footer{
     height: 100px;
     background: linear-gradient(to right, #343633ff, #042325ff, #119da4ff, #f64740ff, #fbfbffff) !important;
 }
+
+/* Social network styles taken from Love Running project */
 
 .social_networks{
     text-align: center;
@@ -131,12 +146,18 @@ footer{
     padding: 1%;
     color: #343633ff;
 }
+
 /* Media Queeries */
+
+/* Media queeries for responsiveness of grouped images on home page */
+
 @media screen and (max-width: 640px) {
     .column {
       width: 100%;
     }
 }
+
+/* Nav bar to clear from right and spacing change to accommodate smaller devices to iPhone 5*/
 
 @media screen and (max-width: 640px) {
 
@@ -148,6 +169,8 @@ footer{
         line-height: 30px;
     }
 }
+
+/* Logo on right hand side of web page set not to display on smaller devices */
 
 @media (max-width:629px) {
     img#logo {
