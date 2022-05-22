@@ -66,28 +66,28 @@ body {
   }
 /* Headers and text */
 
-#h1 {
+h1 {
     font-family:Verdana;
     text-transform: uppercase;
     letter-spacing: 7px;
     color: #f64740ff;
 }
 
-#h2 {
+h2 {
     font-family:Verdana;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #f64740ff;
 }
 
-#h3 {
+h3 {
     font-family:Verdana;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #119da4ff;
 }
 
-#h3 {
+h3 {
     font-family:Verdana;
     text-transform: uppercase;
     letter-spacing: 4px;
